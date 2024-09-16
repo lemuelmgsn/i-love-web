@@ -1,0 +1,49 @@
+16-9
+
+5 x 40 = 200 x 2 = 400 x 60 = $24000. zijn je projecten zoveel waard? 
+
+Van Epic, langs (user)stories, naar taken.
+
+<!-- Epics -->
+
+"in 1 zin opnoemen wat je in een project gaat doen"
+
+Epics zijn een handige manier om werk te organiseren en een hierarchie te creeren. het idee is om werk op te splitsen in opleverbare stukken, zodat grote projecten kunnen worden afgerond en klanten  op een regelmatige basis waarde krijgen. Epics helpen teams werk op te splitsen terwijl ze naar een groter doel toewerken.
+
+Voorbeelden van epics:
+
+de website van ... verbeteren
+een nieuwe website lanceren voor ...
+
+<!--Stories  -->
+Stories(kleinere verhalen):
+
+de website van ... verbeteren
+    de website sneller maken
+    de website gebruiksvriendelijk maken
+    de website toegankelijker maken
+
+<!-- userstories -->
+Een nieuwe e-commerce website lanceren
+    Een winkelmandje toevoegen
+        Als bezoeker wil ik producten in mijn winkelmande kunnen doen om overzicht te houden wat ik aanschaf
+        Als bezoeker wil ik producten kunnen verwijderen uit mijn winkelmandje als ik iets gevonden heb wat beter past bij wat ik nodig heb.
+
+
+<!-- Super duidelijk en specifiek zijn met het schrijven van een story -->
+
+Voorbeelden:
+
+Een winkelmandje toevoegen
+    Als bezoeker wil ik producten in mijn winkelmande kunnen doen om overzicht te houden wat ik aanschaf
+    Als bezoeker wil ik producten kunnen verwijderen uit mijn winkelmandje als ik iets gevonden heb wat beter past bij wat ik nodig heb.
+        database voor winkelmandje
+        overzicht winkelmandje tonen in HTML/CSS
+        producten verwijderen uit database
+        interface ontwerpen voor verwijderen producten
+        interface ontwerpen voor aantal aanpassen
+        verder shoppen interface/doorgaan naar betaling
+        icoon winkelmandje ontwerpen
+        implementaite icoon winkelmandje
+        optelsom alle prijzen
+        ...
