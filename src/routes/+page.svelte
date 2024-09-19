@@ -12,6 +12,12 @@
     <div class="content">
         <h1>{data.person.name}</h1>
         <h2>{data.person.bio}</h2>
+
+        <ul>
+            <li>github</li>
+            <li>spotify</li>
+            <li>instagram</li>
+        </ul>
     </div>
   </div>
 
@@ -22,19 +28,26 @@
 .content{
     justify-self: center;
     position: absolute;
-    bottom: 50%;
+    bottom: 20%;
 }
 
 html,body{
   overflow: hidden;
   height:100%;
   margin:0;
-  background-color: #111;
+  /* background-color: #111; */
 }
-h1, h2, a{
+h1, h2, a, li{
     text-align: center;
   color: #111;
   font-family: sans-serif;
+}
+h1{
+    font-size: 3em;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
 }
 #turnon{
   width:100vw;
