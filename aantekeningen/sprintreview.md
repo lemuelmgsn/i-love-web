@@ -8,7 +8,7 @@ Kijken wat je gedaan hebt enn hoever je bent met de opdrachtgever
 - specifieke vragen stellen om feedback te krijgen
 - agenda maken
 - demo
-    - Langs uder stories gaan van deze sprint
+    - Langs user stories gaan van deze sprint
     - website laten zien, naast het design
     - Laten zien wat er nog niet is gelukt a.d.v het design
     - Tijdens de demo benadrukken wat de punten zijn waar je feedback op wilt
