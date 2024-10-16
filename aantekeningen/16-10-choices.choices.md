@@ -14,8 +14,6 @@ extensions in marketplace - download and installe extensions
 
 make money - open source maar niet helemaal. als jij succesvol bent zijn zij ook succesvol.
 
-## Choices
-
 ## Tradeoffs
 
 ### fast, good, or cheap
@@ -101,9 +99,46 @@ the tech u use doesn't matter, end users dont matter
 youre going to make shitty decisions
   really engage with that and own it and make better decisions
   
-
-
+Root your decisions in user needs
+  we need to maintain it, build code
   
+Consider their needs
+
+*** 
+
+### how does directus get feedback
+
+Community members - Customers
+
+customer
+  check in with you, 
+  
+customers who are engaged in community activities  
+  issues in github
+  feature request
+  discord and ask for things, complain
+  ask how to do/use something
+  
+users
+  feedback widget
+  
+audience
+  whatever
+  dingen zeggen ooit
+  
+## Impostor syndrome
+
+all the resources
+
+zijn project/website
+
+[yougotthis.io](https://yougotthis.io/collections)
+
+### [Directus tv](https://directus.io/tv)
+
+Directus academy
+  webhook
+  websocket
 
 ## Backend van Directus - features
 
