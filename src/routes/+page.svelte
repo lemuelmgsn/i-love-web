@@ -78,6 +78,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start; /* Zorgt ervoor dat alles vanaf boven begint */
+    background-color: black;
 }
 
 .animation-section {
@@ -104,7 +105,8 @@ section{
     overflow: hidden;
     border-right: 3px solid;
     animation: typing 3s steps(22), blink .5s step-end infinite alternate;
-    color: rgb(18, 18, 18);
+    /* color: rgb(18, 18, 18); */
+    color: white;
 }
 
 @keyframes typing {
@@ -128,7 +130,8 @@ section{
     padding-bottom: 2em;
     animation: wiggleButton infinite 2s;
     text-decoration: none;
-    color: black;
+    /* color: black; */
+    color: white;
     font-weight: bold;
 }
 
