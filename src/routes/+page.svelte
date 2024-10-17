@@ -1,124 +1,216 @@
-<title>Lamp</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I love web</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,400" rel="stylesheet">
+</head>
 
-<div id="turnon">
-	<a href="#turnon" class="lamp">.</a>
-	<a href="#turnoff" class="turnoff">.</a>
-	<div class="string"></div>
-	<div class="bulb"></div>
-	<div class="light"></div>
-	<div class="content">
-		  <h1>Lemuel</h1>
-		  <h2>text text text</h2>
-  
-		  <ul>
-			  <li>github</li>
-			  <li>spotify</li>
-			  <li>instagram</li>
-		  </ul>
-	  </div>
-  </div>
-  
-  <div>
-	<p>Hoi</p>
-  </div>
+<body>
+    <!-- Typing animation and carousel -->
+    <section class="animation-section">
+        <div class="wrapper">
+            <h1 class="typing">
+                We
+                <span class="carousel">
+                    <span class="change_inner">
+                        <span class="element"> Love</span>
+                        <span class="element"> ❤️</span>
+                        <span class="element"> Love</span>
+                        <span class="element"> ❤️</span>
+                    </span>
+                </span>
+                Web
+            </h1>
+        </div>
+        <a href="#div1" class="skip">scroll</a>
+    </section>
+
+    <!-- Div-1 content (separated from animation) -->
+    <section>
+        <div class="div-1" id="div1">
+            <h3 class="h3-links">Title</h3>
+            <h4>date</h4>
+            <h5>Title</h5>
+            <br>
+
+            <div class="note-tekst">
+                <h6>Title</h6>
+                <p>text</p>
+                <p>text</p>
+                <br>
+                <h6>Title</h6>
+                <p>text</p>
+                <p>text</p>
+                <p>text</p>
+                <br>
+                <h6>Title</h6>
+                <p>text</p>
+                <p>text</p>
+                <p>text</p>
+                <br>
+                <h6>Title</h6>
+                <p>text</p>
+                <p>text</p>
+            </div>
+        </div>    
+    </section>
+</body>
+</html>
+
 
 <style>
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+h6{
+    font-size: 1em;
+}
 
-.content{
-    justify-self: center;
-    position: absolute;
-    bottom: 20%;
-}
-h1, h2, a, li{
-  text-align: center;
-  color: #000
-  sans-serif;
-}
-h1{
-    font-size: 3em;
-}
-ul{
+body {
+    min-height: 100vh;
     display: flex;
-    justify-content: space-between;
-}
-div > p{
-  color: white;
-}
-#turnon{
-  width:100%;
-  height:100%;
-  display:block;
-  /* background:#111; */
-  background-color: #fff;
-  transition: 300ms;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Zorgt ervoor dat alles vanaf boven begint */
 }
 
-.lamp,.turnoff{
-  width:100px;
-  height:100px;
-  top:0;
-  left:50%;
-  margin-left:-100px;
-  position:absolute;
-  border-bottom: 100px solid #444;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  height: 0;
-  z-index:11;
+.animation-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Zorgt ervoor dat de animatie-sectie de volledige hoogte van het scherm vult */
+    width: 100%; /* Breedt de volledige breedte */
+    position: relative;
+}
+section{
+    height: 100vh;
+}
+.wrapper {
+    font-family: monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
 }
 
-.turnoff{ display: none; }
-
-.bulb{
-  position:absolute;
-  top:90px;
-  left:50%;
-  height:32px;
-  width:32px;
-  margin-left:-16px;
-  background:#777;
-  border-radius:32px;
-  z-index:9;
-  transition: 300ms;
-  -webkit-transition-delay:300ms;
+.typing {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+    color: rgb(18, 18, 18);
 }
 
-.string{
-  position:absolute;
-  top:90px;
-  left:50%;
-  margin-left:25px;
-  height:100px;
-  width:2px;
-  background:#999;
-  display:block;
-  z-index:10;
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 12ch; /* Past de breedte aan voor "We Love " */
+    }
 }
 
-.light{
-  width: 50px;
-  height: 0;
-  top: 90px;
-  left: 50%;
-  margin: -135px 0 0 -740px;
-  border: 715px solid;
-  border-top: none;
-  border-bottom: 1400px solid #000;
-  opacity: 0;
-  position: absolute;
-  transition: 300ms;
-  -webkit-transition-delay:300ms;
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
 
-#turnon:target .light{ opacity:1; }
-#turnon:target .bulb{ background:#FAEB83; }
-#turnon:target .turnoff{ display:block; }
-#turnon:target .lamp{ display:none; }
-#turnon:target .string{ -webkit-animation:pull 500ms; }
-
-@-webkit-keyframes pull{
-  0%{ height:100px; background:#666; }
-  50%{ height:120px; }
-  100%{ height:100px; }
+.skip {
+    position: absolute;
+    align-self: end;
+    padding-bottom: 2em;
+    animation: wiggleButton infinite 2s;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
+
+@keyframes wiggleButton {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-1em);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Carousel styling */
+.carousel {
+    display: inline-block;
+    overflow: hidden;
+    height: 1.15em; /* Aangepast aan de line-height */
+    vertical-align: bottom;
+}
+
+.change_inner {
+    display: inline-block;
+    animation: rotate 8s ease-in-out infinite;
+}
+
+.element {
+    display: block;
+    line-height: 1.15em; /* Line-height passend bij de omringende tekst */
+    color: #F8312F;
+}
+
+@keyframes rotate {
+    0%, 20% {
+        transform: translateY(0);
+    }
+    25%, 45% {
+        transform: translateY(-1.15em); /* Aangepast aan de grootte van de tekst */
+    }
+    50%, 70% {
+        transform: translateY(-2.3em);
+    }
+    75%, 95% {
+        transform: translateY(-3.45em);
+    }
+    100% {
+        transform: translateY(-4.6em);
+    }
+}
+
+/* Styles voor div-1 */
+.div-1 {
+    background-color: #c3c3c3;
+    border-radius: 20px;
+    text-align: left;
+    padding: 10px;
+    background-image: repeating-linear-gradient(
+        white 0px calc(1lh - 1px),
+        rgb(214, 214, 214) calc(1lh - 1px) 1lh
+    );  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 575px;
+    width: 80%;
+    margin: 20px auto;
+}
+.note-tekst{
+    width: 450px;
+}
+
+/* Responsive font size adjustments */
+@media only screen and (min-width: 600px) {
+    .wrapper {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .wrapper {
+        font-size: 3em;
+    }
+}
+
 </style>
