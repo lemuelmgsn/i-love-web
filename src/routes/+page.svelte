@@ -24,7 +24,56 @@
                 Web
             </h1>
         </div>
-        <a href="#div1" class="skip">scroll</a>
+        <a href="#semesters" class="skip">scroll</a>
+    </section>
+
+    <section id="semesters" class="semesters">
+      <h2>Semesters</h2>
+        <div class="semester-container">
+          <article>
+            <h3>Semester 1</h3>
+            <ul>
+              <li>Sprint 1</li>
+              <li>Sprint 2</li>
+              <li>Sprint 3</li>
+              <li>Sprint 4</li>
+              <li>Sprint 5</li>
+              <li>Sprint 6</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Semester 2</h3>
+            <ul>
+              <li>Sprint 7</li>
+              <li>Sprint 8</li>
+              <li>Sprint 9</li>
+              <li>Sprint 10</li>
+              <li>Sprint 11</li>
+              <li>Sprint 12</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Semester 3</h3>
+            <ul>
+              <li>Sprint 13</li>
+              <li>Sprint 14</li>
+              <li>Sprint 15</li>
+              <li>Sprint 16</li>
+              <li>Sprint 17</li>
+              <li>Sprint 18</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Semester 4</h3>
+            <ul>
+              <li>Sprint 19</li>
+              <li>Sprint 20</li>
+            </ul>
+          </article>
+        </div>
     </section>
 
     <!-- Div-1 content (separated from animation) -->
@@ -61,12 +110,35 @@
 
 
 <style>
+  article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    margin: 20px;
+  }
+  .semester-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  .semesters{
+    display: flex;
+    flex-direction: column;
+  }
+  .semesters > h2{
+    transform: translateX(-50%) ;
+    left: 50%;
+    position: absolute;
+    padding-bottom: 20px;
+  }
 * {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    color: white;
 }
 h6{
     font-size: 1em;
