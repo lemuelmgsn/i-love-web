@@ -114,7 +114,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:center ;
+    justify-content:center;
     margin: 20px;
   }
   .semester-container{
@@ -150,7 +150,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start; /* Zorgt ervoor dat alles vanaf boven begint */
-    background-color: black;
+    background-color: #111111;
 }
 
 .animation-section {
@@ -200,7 +200,8 @@ section{
     position: absolute;
     align-self: end;
     padding-bottom: 2em;
-    animation: wiggleButton infinite 2s;
+    animation: wiggleButton infinite 1.5s, popUp 1s;
+    animation-delay: 1s, 0s;
     text-decoration: none;
     /* color: black; */
     color: white;
@@ -212,9 +213,18 @@ section{
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-1em);
+        transform: translateY(-.5em);
     }
     100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes popUp{
+    from{
+        transform: translateY(5em);
+    }
+    to{
         transform: translateY(0);
     }
 }

@@ -1,0 +1,750 @@
+<section id="sprint-1">
+    <h2>Sprint 1</h2>
+    <br>
+    <section class="divs">
+        <!-------------------------------NOTE - 1 ---------------------------->
+            <div class="div-1">
+                <h3 class="h3-links">week 1</h3>
+                <h4>05/09</h4>
+                <h5>Workshop CSS Basics</h5>
+                <br>
+
+                <div class = note-tekst>
+                    <h6>Selectors:</h6>
+                    <p>element selectors</p>
+                    <p>.class selectors</p>
+                <br>
+                    <p>meta = boven</p>
+                    <p>body = content</p>
+                    <p>universal selector = alles</p>
+                    <p>pseudo element :before, :after</p>
+                <br>
+                    <h6>Properties:</h6>
+                    <p>hoogte, font, display, color</p>
+                    <p>typografie - font, kleur</p>
+                    <p>boxes - hoogte, breedte, margin, padding</p>
+                <br>
+                    <h6>Typografie:</h6>
+                    <p>line-height = ruimte tussen regels</p>
+                    <p>letter-spacing = ruimte tussen letters</p>
+                </div>
+            </div>          
+        <!----------------------------NOTE - 2 ------------------------------>
+            <div class="div-2">
+                <h3 class="h3-midden">week 1</h3>
+                <h4>05/09</h4>
+                <h5>Workshop CSS Basics</h5>
+                <br>
+                <div class="note-tekst">
+                    <h6>Box:</h6>
+                    <p>margin = ruimte buitenkant box</p>
+                    <p>padding = ruimte binnenkant box</p>
+                    <p>border-radius = hoeken rond maken</p>
+                    <p>debuggen = inspect gebruiken</p>
+                <br>
+                    <h6>Position:</h6>
+                    <p>position: absolute/relative</p>
+                    <p>bottom: ...;</p>
+                    <p> right: ...;</p>
+                <br><br>
+
+                    <h6>Transform:</h6>
+                    <p>rotate: ..deg = .. graden draaien</p>
+                    <p>scale: 2 = 2x zo groot</p>
+                    <p>transition: 2s = transition tijd</p>
+                </div>
+            </div>
+        <!------------------------------NOTE - 3 --------------------------------->
+            <div class="div-3">
+                <h3 class="h3-rechts">week 1</h3>
+                <h4>06/09</h4>
+                <h5>Visuele Hiërarchie</h5>
+                <br>
+                <div class="note-tekst">
+                    <h6>Volgorde belangrijke tekst</h6>
+                    <p>1. wie, wat, waar, wanneer</p>
+                    <p>2. belangrijke details</p>
+                    <p>3. andere info (minder belangrijk)</p>
+                <br>
+                    <h6>meest belangrijk</h6>
+                    <p>h1</p>
+                    <p>h2</p>
+                    <p>h3</p>
+                    <p>h4</p>
+                    <p>h5</p>
+                    <p>h6</p>
+                    <h6>minst belangrijk</h6>
+                <br>
+                    <h6>Visuele hiërarchie:</h6>
+                    <p>grootte</p>
+                    <p>positie op scherm</p>
+                    <p>witruimte</p>
+                    <p>kleur/contrast</p>
+                </div>
+            </div>  
+<!---------------------------------------NOTE - 4 ------------------------------->
+            <div class="div-4">
+                <h3 class="h3-links">week 2</h3>
+                <h4>12/09</h4>
+                <h5>HTML & CSS</h5>
+                <br>
+                <div class="note-tekst">
+                    <p>a = anchor element (link naar andere website)</p>
+                    <p>target = blank = nieuwe tablad</p>
+                <br><br>
+
+                    <h6>Target een class name:</h6>
+                    <p> button class'sub-button' </p>
+                <br><br>
+
+                    <h4>13/09</h4>
+                    <h5>media query</h5><br>
+                    <p>@media (min-width: ...px)</p>
+                    <p>div</p>
+                    <p>background-color: ...</p>
+                    <p></p>
+                </div>
+            </div>          
+        <!---------------------------NOTE - 5 ----------------------------->
+            <div class="div-5">
+                <h3 class="h3-midden">week 3</h3>
+                <h4>19/09</h4>
+                <h5>Digitale toegankelijkheid</h5>
+                <h5>We ❤️ Web presentatie</h5>
+                <br><br>
+                <h6>Wat is digitale toegankelijkheid?</h6>
+                    <p>- de mensen</p>
+                    <p>- de wet</p>
+                    <p>- de richtlijnen</p>
+                    <p>- de praktijk</p>
+                <br><br>
+                <h6>Web Content Accesibility Guidelines:</h6>
+                    <p>- 4 principes</p>
+                    <p>- 13 richtlijnen</p>
+                <br>
+                    <p>1. niet goed kunnen zien?</p>
+                    <p>2. niet goed kunnen horen?</p>
+                    <p>3. niet goed kunnen bewegen?</p>
+                    <p>4. niet goed kunnen snappen/begrijpen?</p>
+            </div>
+        <!---------------------------NOTE - 6 ------------------------------->
+            <div class="div-6">
+                <h3 class="h3-rechts">week 3</h3>
+                <h4>19/09</h4>
+                <h6>Voorbeelden</h6>
+                    <p>1. screenreaders, alt text, contrast</p>
+                    <p>2. tekst, ondertiteling</p>
+                    <p>3. eye tracker, tab</p>
+                    <p>4. overzicht, duidelijk/simpel</p>
+                <br>
+
+                <h6>Inclusive design:</h6>
+                    <p>deaf/Deaf</p>
+                    <p>teletolk</p>
+                    <p>gebarentaal is niet overal zelfde,</p>
+                    <p>bijv. ander soort grammatica</p>
+                <br>
+
+                <h6>Tips:</h6>
+                <p>- use headings & subheadings</p>
+                <p>- één punt per paragraaf</p>
+                <p>- easy acces language</p>
+                <p>- journalistic style</p>
+                <p>- white space</p>
+                <p>- actieve vorm schrijven</p>
+                <p>- foto's</p>
+
+    </section> 
+</section>
+<!------------------------------------------------ SPRINT - 2 ----------------------------------------------->
+<section id="sprint-2">
+    <h2>Sprint 2</h2>
+    <br>
+    <section class="divs-2">
+         <!-------------------------------NOTE - 1 ---------------------------->
+            <div class="div-1">
+                <h3 class="h3-links">week 1</h3>
+                <h4>26/09</h4>
+                <h5>CSS Challenges</h5>
+                <br>
+                <h6 class="h6-linkerkant">Grid:</h6>
+                        <p>CSS grid generator</p>
+                        <p>display: grid</p>
+                        <p>gap: ...px</p>
+                    <br>
+                        <p>grid-column-start/end: -1/10</p>
+                        <p>grid-row-start/end: -1/10</p>
+                    <br>
+                        <p>grid-template-areas:</p>
+                        <p>"div-1 div-2"</p>
+                        <p>"div-3 div-4"</p>
+
+                    
+            </div>          
+         <!-------------------------------NOTE - 2 ---------------------------->
+            <div class="div-2">
+                <h3 class="h3-midden">week 2</h3>
+                <h4>4/10</h4>
+                <h5>Workshop Typografie & leesbaarheid</h5>
+                <br>
+                <h6>Typografie & leesbaarheid</h6>
+                <p>web.dev</p>
+                <p>verschilt per taal</p>
+                <p>minimaal 16px groot / 1.2 em</p>
+                <p>regels met max 10-12 woorden</p>
+                <p>regel afstand - 1.4</p>
+                <p>line height - 1.4</p>
+                <p>vw = percentage van breedte</p>
+                <br>
+                <p>p<br>
+                    width:30em = 10-12 woorden</p>
+            </div>
+         <!-------------------------------NOTE - 3 ---------------------------->
+            <div class="div-3">
+                <h3 class="h3-rechts">week 3</h3>
+                <h4>10/10</h4>
+                <h5>CSS Challenges</h5>
+                <br>
+                <h6>Flexbox:</h6>
+                <p>flex = controle over 1 richting</p>
+                <p>display: flex = naast elkaar</p>
+                <br>
+                <p>justify-content(horizontaal): start/center/end/space-evenly</p>
+                <p>align-items(veritcaal): start/center/end</p>
+                <br>
+                <p>overflow: scroll = scrollen wanneer text/foto's overflowen</p>
+                <p>flex-shrink: 0 = niet krimpen</p>
+                <p>flex-direction: row/column</p>
+                <br>
+                <p><a href="https://flexboxfroggy.com/#nl" class="normale-link">flexboxfroggy.com</a> = flexbox oefenen</p>
+            </div>  
+    </section> 
+</section>
+<!------------------------------------------------ SPRINT - 3 ----------------------------------------------->
+<section id="sprint-3">
+    <h2>Sprint 3</h2>
+    <br>
+    <section class="divs-2">
+         <!-------------------------------NOTE - 1 ---------------------------->
+            <div class="div-1">
+                <h3 class="h3-links">week 1</h3>
+                <h4>18/10</h4>
+                <h5>Kleur & Contrast</h5>
+                <br>
+                <h6>Kleurenblind:</h6>
+                <p>1. gebruik naast kleuren alt. info</p>
+                <p>2. onderscheidende kleuren<br>koud & warm contrast<br>complementair contrast</p>
+                <p>3. saturatie & brightness<br>light and dark colours</p>
+                <p>4. vermijd rood en groen!</p>
+                <br>
+                <p><a href="https://www.tpgi.com/color-contrast-checker/" class="normale-link">Color Contrast Analyser</a>
+                <br>Hiermee kan je het contrast tussen kleuren checken</p>
+            </div>          
+         <!-------------------------------NOTE - 2 ---------------------------->
+            <div class="div-2">
+                <h3 class="h3-midden">week 2</h3>
+                <h4>23/10 - 27/10</h4>
+                <h5>Vakantie!</h5>
+                <img src="assets/vakantie-foto.png" class="vakantie-foto">
+            </div>
+         <!-------------------------------NOTE - 3 ---------------------------->
+            <div class="div-3">
+                <h3 class="h3-rechts">week 3</h3>
+                <h4>30/10</h4>
+                <h5>Visual thinking</h5>
+                <br>
+                <h6>Denk-cyclus & Typografie:</h6>
+                <div class="denk-cyclus">
+                    <img src="assets/denk-cyclus.png" class="denk-cyclus-foto">
+                    <img src="assets/letters.png" class="denk-cyclus-foto">
+                </div>
+            </div>  
+    </section> 
+</section>
+<!------------------------------------------------ SPRINT - 4 ----------------------------------------------->
+<section id="sprint-4">
+    <h2>Sprint 4</h2>
+    <br>
+    <section class="divs">
+         <!-------------------------------NOTE - 1 ---------------------------->
+            <div class="div-1">
+                <h3>week 1</h3>
+                <h4>15/11</h4>
+                <h5>Responsive lay-out & Huisstijl</h5>
+                <h6>Huisstijl:</h6>
+                <p>kleur gebruik</p>
+                <p>lettertype</p>
+                <p>positionering controllers</p>
+                <p>lay-out</p>
+                <p>typografie</p>
+                <p>lijsten</p>
+                <p>"album covers"</p>
+                <p>beeld elementen</p>
+                <p>hover (animaties om iets te laten zien)</p>
+                <p>grid</p>
+                <br>
+                <h6>Lay-outs:</h6>
+                    <p>fixed = size blijft altijd hetzelfde</p>
+                    <p>fluid = word groter/kleiner afhankelijk van scherm</p>
+                    <p>adaptive = verschillend afhankelijk van soort scherm</p>
+                    <p>responsive = past zich aan afhankelijk van schermgrootte</p>
+                    <br>
+                    <p>container queries --> stap verder</p>
+            </div>          
+         <!-------------------------------NOTE - 2 ---------------------------->
+            <div class="div-2">
+                <h3>week 2</h3>
+                <h4>20/11</h4>
+                <h5>Typografie & Leesbaarheid</h5>
+                <h6>Leesbaarheid</h6>
+                <p>goed leesbare tekst = minimaal 16px</p>
+                <p>browser default = 16px</p>
+                <p>10-12 woorden per zin</p>
+                <p>45-70 characters per zin</p>
+                <br>
+                <h6>Regelafstand:</h6>
+                <p>1.4 (140%)</p>
+                <p>1.2 (browser default line-height)</p>
+                <p>1.5 - 2</p>
+                <p>minimaal 1.5 line height</p>
+                <br>
+                <h6>Font:</h6>
+                <p>max 3-4 fonts in huisstijl</p>
+                <p>relatieve length units: em/rem/vh/vw</p>
+                <br>
+                <h6>Max-width:</h6>
+                <p>...ch = aantal characters(letters)</p>
+                <p>30em = 10-12 woorden</p>
+            </div>
+         <!-------------------------------NOTE - 3 ---------------------------->
+            <div class="div-3">
+                <br><br>
+                <h6>Toegankelijkheid:</h6>
+                <p>altijd font fallback</p>
+                <p>geen caps gebruiken(VOORBEELD)</p>
+                <p>geen "center-text" als je meer dan 3 regels hebt</p>
+                <p>nooit text-align: justify</p>
+                <p>goede contrast</p>
+                <br>
+                <h4>22/11</h4>
+                <h5>CSS voor styleguides</h5>
+                <h6>CSS custom properties:</h6>
+                <p>1. globaal</p>
+                <p>2. scoped</p>
+                <p>3. fallback</p>
+                <p>4. veranderbaar</p>
+                <br>
+                <h6>Naamgeving:</h6>
+                <div class="flex">
+                <p>
+                    Niet doen❌:<br>
+                    rood<br>
+                    blauw<br>
+                    size<br>
+                    color<br>
+                </p>
+                <p>
+                    Wel doen✅ :<br>
+                    primary-color<br>
+                    secondary-color<br>
+                    font-size<br>
+                    font-color
+                </p>
+                </div>
+            </div>  
+<!-------------------------------NOTE - 4 ---------------------------->
+            <div class="div-4">
+                <br><br>
+                <h6>Structuur in CSS:</h6>
+                <p>1. DRY</p>
+                <p>2. specificity</p>
+                <p>3. naamgeving</p>
+                <p>4. comments</p>
+                <br>
+                <h6>WET & DRY:</h6>
+                <p>WET = write everything twice</p>
+                <p>DRY = don't repeat yourself</p>
+                <br>
+                <h6>Specificity:</h6>
+                <p>target class names</p>
+                <p>geen id's voor styling</p>
+                <p>zo min mogelijk inline styling</p>
+                <p>geen !important gebruiken</p>
+            </div>
+<!-------------------------------NOTE - 5 ---------------------------->
+            <div class="div-5">
+                <h3 class="h3-midden">week 2</h3>
+                <h4>24/11</h4>
+                <h5>Yolijn van der Kolk, NL Design System</h5>
+                <h5>We ❤️ Web presentatie</h5>
+                <br>
+                <h6>Wat is een design system?</h6>
+                <p>Een online verzameling van herbruikbare visuele componenten met duidelijke richtlijnen. </p>
+                <br>
+                <h6>Voorbeelden van een design system</h6>
+                <p><a href="https://sanomalearning.design/" class="normale-link">sanomalearning.design</a></p>
+                <p><a href="https://lion-web.netlify.app/" class="normale-link">lion-web.netlify.app</a></p>
+                <br>
+                <h6>Community:</h6>
+                <p>samenwerking tussen overheidsorganisaties</p>
+                <p>samenwerking met leveranciers van overheid</p>
+                <br>
+                <h6>Rekening mee houden:</h6>
+                <p>elk organisatie heeft eigen huisstijl</p>
+                <p>code en design in sync</p>
+                <p>open source voor iedereen te gebruiken</p>
+            </div>
+<!-------------------------------NOTE - 6 ---------------------------->
+            <div class="div-6">
+                <br><br>
+                <h6>Architectuur(tech-stack):</h6>
+                <p>CSS componeten met voorspelbare namen</p>
+                <p>Design tokens in JSON</p>
+                <p>Webcomponents waar mogelijk</p>
+                <p>Framework componenten waar handig</p>
+                <p>Documentatie in Markdown(soortvan read.me)</p>
+                <p>Storybook met visuele regressie tests</p>
+                <br>
+                <p>Voorspelbare naamgeving:<br>bekend van webstandaarden</p>
+                <br>
+                <h6>Design tokens in lagen:</h6>
+                <p>1. Huisstijl tokens</p>
+                <p>2. Algemene tokens</p>
+                <p>3. Component tokens</p>
+                <br>
+                <h6>High contrast mode</h6>
+                <div class="flex">
+                    <p>1. kleurenpalet<br>font<br>border-radius</p>
+                    <p>2. consistentie kleuren gebruik.<br>font-familie voor heading.<br>kleuren voor feedback & interactie.</p>
+                    <p>3. denk aan:<br>bg-kleur van een button.<br>border-kleur van textbox.<br>tekst-kleur van card.</p>
+                </div>
+            </div>
+    </section> 
+</section>
+
+<section id="sprint-5">
+    <h2>Sprint 5</h2>
+    <br>
+    <section class="divs-2">
+<!-------------------------------NOTE - 1 ---------------------------->
+             <div class="div-1">
+                    <h3>week 1</h3>
+                    <h4>15/11</h4>
+
+                </div>          
+<!-------------------------------NOTE - 2 ---------------------------->
+             <div class="div-2">
+                <h3 class="h3-midden">week 2</h3>
+                <h4>15/12</h4>
+                <h5>Julia Miocene, Over CSS</h5>
+                <h5>We ❤️ Web presentatie</h5>
+                <h6>Why?:</h6>
+                <p>Learn new things</p>
+                <p>Try new things</p>
+                <p>Have fun & prevent burn out</p>
+                <p>Gain skills in a nearby area</p>
+                <p>Find a creative community</p>
+                <p>Push technoology forward</p>
+                <br>
+                <h6>Where to start?</h6>
+                <p><a href="https://codepen.io/challenges" class="normale-link">codepen.io/challenges</a></p>
+                <p><a href="https://cssbattle.dev/" class="normale-link">cssbattle.dev</a></p>
+                <p><a href="https://100dayscss.com/" class="normale-link">100dayscss.com</a></p>
+                <br>
+                <h6>Peoples Codepens to visit:</h6>
+                <p>David Khourshid</p>
+                <p>Ben Evans</p>
+                <p><span>Julia Miocene</span></p>
+                <p>Steve Gordner</p>
+                <p>Ana Tudor</p>
+                <p>Amit Sheen</p>
+
+            </div>
+<!-------------------------------NOTE - 3 ---------------------------->
+            <div class="div-3">
+                <h3>week 3</h3>      
+            </div>
+    </section>
+
+
+</section>
+
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+/*  -----------------------------------------------HEADINGS--------------------------------------- */
+h1, h2, h4, h5{
+    text-align: center;
+}
+h1{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 50px;
+    /* margin-left: 115px;     GEEN VASTE LENGTES    */
+}
+h2{
+    font-size: 30px;
+    font-weight:  bold;
+}
+h6{
+    text-align: left;
+    padding-left: 32px;
+    font-size: 17px;
+}
+/* -----positie van "Week 1 - Week 2 - Week 3" ------ */
+h3{
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.h3-links{
+    text-align: left;
+    padding-left: 32px;
+}
+.h3-midden{
+    text-align: center;
+}
+.h3-rechts{
+    text-align: right;
+    padding-right: 60px;
+}
+/* ----positie tekst op notes----- */
+.note-tekst, p{
+    text-align: left;
+}
+p{
+    font-size: 16px;
+    padding-left: 32px;
+}
+span{
+    font-weight: bold;
+}
+/* ----styling voor "Love" */
+.span-1{
+    color:white;
+    background-color: #B60000;
+    border-radius: 20px;
+    padding: 4px;
+    box-shadow:
+    0 0 0.1em red,
+    0 0 0.2em red,
+    0 0 0.3em red;
+    text-shadow:
+    0 0 0.1em red,
+    0 0 0.2em red,
+    0 0 0.3em red;
+}
+.span-2{
+    font-size: 14px;
+    font-weight: bold;
+}
+/* ---styling voor de nav links----------- */
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-decoration: none;
+    margin-left: 60px;
+}
+nav ul li{
+    display: inline;
+    margin-right: 3em;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.normale-link{
+    color: blue;
+    text-decoration: underline;
+}
+.normale-link:hover{
+    color: darkblue;
+}
+a:hover{
+    color: grey;
+}
+/* ---------------------- lay-out ------------------------ */
+.divs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    grid-template-areas: 
+    "div-1 div-2 div-3"
+    "div-1 div-2 div-3"
+    "div-4 div-5 div-6"
+    "div-4 div-5 div-6";
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.divs-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 25px;
+    grid-template-areas: 
+    "div-1 div-2 div-3"
+    "div-1 div-2 div-3";
+    margin-left: 40px;
+    margin-right: 40px;
+}
+body > section{
+    margin: 30px;
+}
+main > section{
+    width: 100%
+}
+/* ------------------------------------------------------- design voor alle notes ----------------------------------------------------*/
+.div-1, .div-2 , .div-3, .div-4, .div-5, .div-6{
+    background-color: #c3c3c3;
+    border-radius: 20px;
+    text-align: center;
+    background-image: 
+        repeating-linear-gradient(
+        white 0px calc(1lh - 1px),
+        rgb(214, 214, 214) calc(1lh - 1px) 1lh
+        );  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 575px;
+}
+/* ----------------------------------- positie van de divs op de grid en lijntjes van de note --------------------------------*/
+.div-1{
+    grid-area: div-1;
+    line-height: 1.5rem;    
+}
+.div-2{
+    grid-area: div-2;
+    line-height: 1.4rem;    
+}
+.div-3{
+    grid-area: div-3;
+    line-height: 1.4rem;    
+}
+.div-4{
+    grid-area: div-4;
+    line-height: 1.4rem;    
+}
+.div-5{
+    grid-area: div-5;
+    line-height: 1.4rem;    
+}
+.div-6{
+    grid-area: div-6;
+    line-height: 1.3rem;    
+}
+.vakantie-foto{
+    margin-top: 20px;
+    height: 400px;
+    width: 300px;
+    border-radius: 30px;
+}
+.denk-cyclus{
+    display: flex;
+}
+.denk-cyclus-foto{
+    margin-top: 0;
+    height: 50vh;
+    border-radius: 5px;
+    /* margin: 10px; */
+}
+.flex{
+    display: flex;
+}
+
+
+@media (max-width: 1132px) { 
+    .divs {
+      grid-template-areas:
+        'div-1 div-2'
+        'div-1 div-2'
+        'div-3 div-4'
+        'div-3 div-4'
+        'div-5 div-6'
+        'div-5 div-6';
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows:  1fr 2fr;
+      
+    }
+    .divs-2 {
+        grid-template-areas:
+        'div-1 div-2'
+        'div-1 div-2'
+        'div-3 div-4'
+        'div-3 div-4';
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows:  2fr 2fr;
+
+    }
+  }
+
+
+
+  /* mobiel en ietjes groter */
+  @media (max-width: 760px) { 
+    .divs{
+    grid-template-areas:
+        'div-1'
+        'div-1'
+        'div-2'
+        'div-2'
+        'div-3'
+        'div-3'
+        'div-4'
+        'div-4'
+        'div-5'
+        'div-5'
+        'div-6'
+        'div-6';
+    grid-template-columns: 1fr;
+    grid-template-rows:  1fr;
+    /* width: auto; */
+    }
+    .divs-2 {
+        grid-template-areas:
+            'div-1'
+            'div-1'
+            'div-2'
+            'div-2'
+            'div-3'
+            'div-3'
+            'div-4'
+            'div-4'
+            'div-5'
+            'div-5'
+            'div-6'
+            'div-6';
+        grid-template-columns: 1fr;
+        grid-template-rows:  1fr;
+        /* width: auto; */
+    }
+  }
+  @media (max-width: 956px) { 
+    .vakantie-foto{
+        height: 50%;
+        width: 50%;
+    }
+    .denk-cyclus-foto{
+        height: 50%;
+        width: 50%;
+    }
+  }
+
+  
+
+
+</style>
