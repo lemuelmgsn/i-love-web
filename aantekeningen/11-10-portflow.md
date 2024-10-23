@@ -29,6 +29,7 @@ Portflow
 5.2 - framework leren - svelte/eleventy? | mentor rol
 
 5.3 - ben je een slacker of "goed student" ?
+      teamcanvas- schets je ontwikkeling
 
 
 portflow aanleveren - screenshot en link naar projectboard. 
