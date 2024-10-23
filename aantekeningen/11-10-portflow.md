@@ -26,7 +26,7 @@ Portflow
 
 5.1 - mailingslist - blogposts - cssweekly - frontendfocus - codrops - mastodon - kevin powell - performance now - medium - smashing magazine - linkedin 
 
-5.2 - aankomende sprint
+5.2 - framework leren - svelte/eleventy? | mentor rol
 
 5.3 - ben je een slacker of "goed student" ?
 
