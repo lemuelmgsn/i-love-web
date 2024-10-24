@@ -11,7 +11,6 @@ css: /aantekeningen.css
 {#  when u use your tags it will group it in a collection #}
     {%- for  post in collections.post -%}
     <li>
-        <article class="snipppet"></assets>
         {# kijk in de post van collection.post > vind de data > pak de title  #}
             <h2> {{ post.data.title }}</h2>
             <p>door {{ post.data.presentator }}</p>
