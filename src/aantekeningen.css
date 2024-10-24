@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: #111111;
+}
+h1, h2, h3, p{
+    color: white;
+}
+h1{
+    font-size: 20px;
+}

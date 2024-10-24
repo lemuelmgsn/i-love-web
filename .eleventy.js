@@ -3,11 +3,12 @@ const { DateTime } = require("luxon");
 module.exports = function(eleventyConfig) {
     // zorgt ervoor dat de assets en css ook naar de public wordt gestuurd
     eleventyConfig.addPassthroughCopy("./src/style.css");
-    eleventyConfig.addPassthroughCopy("./src/assets");
+    eleventyConfig.addPassthroughCopy("./src/aantekeningen.css");
+
       
     // Voeg watch targets toe om te herbouwen te bij wijzigingen
-    eleventyConfig.addWatchTarget("./src/css/");
-    eleventyConfig.addPassthroughCopy("./src/assets");
+    eleventyConfig.addWatchTarget("./src/style.css");
+    eleventyConfig.addWatchTarget("./src/aantekeningen.css");
 
     // 
     eleventyConfig.addFilter("postDate", (dateObj) => {

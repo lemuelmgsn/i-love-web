@@ -1,3 +1,11 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color: white;
+}
 article{
     display: flex;
     flex-direction: column;
@@ -20,14 +28,6 @@ article{
     position: absolute;
     padding-bottom: 20px;
   }
-* {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    color: white;
-}
 h6{
     font-size: 1em;
 }
