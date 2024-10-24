@@ -1,3 +1,11 @@
+---
+title: Choices choices
+presentator: Kevin van Directus
+date: 2024-10-16
+description: Kevin van Directus legt alles uit Directus, keuzes maken en Frameworks
+tags: post
+---
+
 # Choices Choices - Kevin van Directus
 
 ## How he makes decisions and choices

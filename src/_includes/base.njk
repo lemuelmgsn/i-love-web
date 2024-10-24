@@ -8,7 +8,19 @@
     <title>{{ title }}</title>
 </head>
 
+
 <body>
+    <main>
+    {# voor het geval als ik header ga implementeren #}
+    {# {% include 'header' %} #}
+
     {{ content | safe }}
+
+    {# voor het geval als ik footer ga implementeren #}
+    {# {% include 'footer' %} #}
+    </main>
 </body>
+
+
 </html>
+

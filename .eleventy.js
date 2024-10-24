@@ -1,3 +1,5 @@
+const
+
 module.exports = function(eleventyConfig) {
     // zorgt ervoor dat de assets en css ook naar de public wordt gestuurd
     eleventyConfig.addPassthroughCopy("./src/style.css");

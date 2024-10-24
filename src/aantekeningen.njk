@@ -1,0 +1,30 @@
+---
+title: Aantekeningen
+layout: 'base.njk'
+---
+
+<section>
+<h1 class="section-title"> Aantekeningen </h1>
+
+<ul role="list" class="articles-list">
+{#  when u use your tags it will group it in a collection #}
+    {%- for  post in collections.post -%}
+    <li>
+        <article class="snipppet"></assets>
+        {# kijk in de post van collection.post > vind de data > pak de title  #}
+            <h2> {{ post.data.title }}</h2>
+            <p>door {{ post.data.presentator }}</p>
+            <p>{{ post.data.date }}</p>
+            <p>{{ post.data.description }}</p>
+
+    </li>
+    {%- endfor -%}
+
+</ul>
+
+</section>
+
+title: We Love Web - Nicolas Garnier
+presentator: Nicolas Garnier
+date: 4-10-2024
+description: We Love Web college over "Creative Developer"
