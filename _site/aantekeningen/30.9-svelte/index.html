@@ -1,0 +1,100 @@
+<h1>Sveltekit Principles</h1>
+<ul>
+<li>structure</li>
+<li>routing</li>
+<li>error handling</li>
+<li>loading data</li>
+<li>binding</li>
+<li>library</li>
+<li>components</li>
+</ul>
+<h2>Structure</h2>
+<p>alles in wat in /src moet svelte kit nog dingen in gaan doen.</p>
+<p>/src - alles wat svelte kit nog moet uitvoeren
+/static - alles waar svelte niks hoeft te doen/uit te voeren, afbeeldingen, etc. (niet in je library)
+/lib - library, components
+/lib/server - (alleen)server side code. mag niet in +page.server.js of +page.js (moet je data beschermen)
+/routes - verschillende paden/pagina's</p>
+<p>.gitignore - patronen voor bestanden die niet naar git gestuurd worden. bijvoorbeeld - .env, node modules.
+.env - daar kunnen wachtwoorden in staan. data die beveiligd moet worden.
+.env.example - soortvan laten zien welke wachtwoorden/data je nodig hebt</p>
+<p>package.json - alles wat nodig is om het project te runnen.
+svelte.config.js - configuratie bestand van svelte. hoe svelte draait en wat voor adapter.
+vite.config.js - tool om een project te runnen. &quot;builder&quot;</p>
+<p>vite is een builder waar svelte in word gedraaid.</p>
+<p>sveltekit documentatie doorlezen. voor package.json. moet je weten, belangrijk</p>
+<h2>Routing</h2>
+<p>/routes/
+[dynamic]/
++page.server.js
++page.svelte
+[static]/
++page.server.js
++page.svelte</p>
+<h2>Error handling</h2>
+<p>routes/
++error.svelte</p>
+<pre><code>&lt;script&gt;
+  import { page } from `$app/stores
+
+  console.log($page.error)
+&lt;/script&gt;
+</code></pre>
+<p><h1>Er gaat iets mis!!!<h1/>
+<p>{$page.status} - {$page.error.message} </p></p>
+<p>+layout.svelte - soort sjabloon, je kan layouts nesten</p>
+<pre><code>  &lt;header&gt;
+    &lt;h1&gt;Dit is een sveltekit project&lt;/h1&gt;
+  &lt;/header&gt;
+  
+  &lt;main&gt;
+    &lt;slot/&gt; &quot;Er gaat iets mis!!!&quot;
+  &lt;/main&gt;
+      
+  &lt;footer&gt;
+    &lt;p&gt;copyright, all rights reservered&lt;/p&gt;
+  &lt;/footer&gt;
+</code></pre>
+<h2>Loading data</h2>
+<p>Framework projecten hebben een manier om data in te laden</p>
+<p>+page.server.js = asynchroon (wat er zit wachttijd in)
+server side is &quot;async&quot; nodig</p>
+<p>Kan uit .env
+kan vanuit JS naar +page.svelte</p>
+<h2>Binding</h2>
+<p>Framework projecten hebben een manier om data te binden.</p>
+<pre><code>&lt;script&gt;
+  let name = 'world'
+  $: shout = name + 'rocks!'
+&lt;/script&gt;
+
+&lt;input bind:value={name}&gt; - hiermee kan je de tekst van de hele html veranderen waar je {name} gebruikt. kan in een tekstbox
+
+&lt;h1&gt;Hello {name}&lt;/h1&gt; = &lt;h1&gt; Hello world &lt;/p&gt;
+&lt;p&gt; hello {shout} &lt;/p&gt; = &lt;p&gt; hello world rocks! &lt;/p&gt;
+</code></pre>
+<h2>Library</h2>
+<p>De meeste framework projecten hebben een bibliotheek functie</p>
+<pre><code>/lib/Header.svelte
+
+&lt;header&gt;
+  &lt;h1&gt;dit is een svelte project&lt;/h1&gt;
+&lt;/header&gt;
+
+/lib/index.js
+
+export {default as Header} from './Header.svelte'
+
+export {default as Footer} from './Footer.svelte'
+</code></pre>
+<p>componenten in je library met hoofdletter beginnen want dan zie je dat het een component is</p>
+<pre><code>/layout.svelte
+  &lt;script&gt;
+    import {Header, Footer} from '$lib'
+  &lt;/script&gt;
+
+  &lt;Header /&gt;
+  &lt;Footer /&gt;
+</code></pre>
+<h2>Components</h2>
+<p>foto</p>
