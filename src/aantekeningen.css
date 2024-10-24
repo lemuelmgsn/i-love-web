@@ -16,17 +16,44 @@ section{
     justify-content: center;
     align-items: center;
 }
-h1, h2, h3, p{
+h1, h2, h3, p {
     color: white;
 }
 h1{
     font-size: 2em;
-    padding-top: 20px ;
+    padding-top: 20px;
+    font-weight: bold;
 }
-
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.p-small, a{
+    font-size: 16px;
+}
+a{
+    border-color: grey;
+    border: 1px solid grey;
+    padding: 2px 5px;
+    border-radius: 10px 5px;
+    color: grey;
+    margin-top: 10px;
+    background-color: transparent;
+    margin-left: auto;
+}
+a:hover{
+    color: #111111;
+    background-color: grey;
+    transition: .5s;
+}
+h2, p{
+    font-size: 20px;
+}
 li{
     border: 2px solid #353535;
     border-radius: 5px;
     margin: 20px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }

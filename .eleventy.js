@@ -4,11 +4,14 @@ module.exports = function(eleventyConfig) {
     // zorgt ervoor dat de assets en css ook naar de public wordt gestuurd
     eleventyConfig.addPassthroughCopy("./src/style.css");
     eleventyConfig.addPassthroughCopy("./src/aantekeningen.css");
+    eleventyConfig.addPassthroughCopy("./src/detail.css");
+
 
       
     // Voeg watch targets toe om te herbouwen te bij wijzigingen
     eleventyConfig.addWatchTarget("./src/style.css");
     eleventyConfig.addWatchTarget("./src/aantekeningen.css");
+    eleventyConfig.addWatchTarget("./src/detail.css");
 
     // 
     eleventyConfig.addFilter("postDate", (dateObj) => {
