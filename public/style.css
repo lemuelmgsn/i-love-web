@@ -49,8 +49,14 @@ body {
     width: 100%; /* Breedt de volledige breedte */
     position: relative;
 }
-section{
+section, .nav-section{
     height: 100vh;
+}
+.nav-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .wrapper {
     font-family: monospace;
@@ -87,13 +93,12 @@ section{
 .skip {
     position: absolute;
     align-self: end;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
     animation: wiggleButton infinite 1.5s, popUp 1s;
     animation-delay: 1s, 0s;
     text-decoration: none;
-    /* color: black; */
     color: white;
-    font-weight: bold;
+    font-size: 16px;
 }
 
 @keyframes wiggleButton {
@@ -127,7 +132,8 @@ section{
 
 .change_inner {
     display: inline-block;
-    animation: rotate 8s ease-in-out infinite;
+    animation: rotate 6.7s ease-in-out infinite;
+    animation-delay: 1.7s;
 }
 
 .element {
