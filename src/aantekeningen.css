@@ -40,6 +40,9 @@ a{
     margin-top: 10px;
     background-color: transparent;
     margin-left: auto;
+    position: relative;
+    bottom: 0;
+
 }
 a:hover{
     color: #111111;
@@ -49,7 +52,11 @@ a:hover{
 h2, p{
     font-size: 20px;
 }
+.articles-list{
+    height: 100%;
+}
 li{
+    height: 230x;
     border: 2px solid #353535;
     border-radius: 5px;
     margin: 20px;
