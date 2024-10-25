@@ -6,6 +6,11 @@
     text-decoration: none;
     list-style: none;
 }
+@font-face {
+    font-family: 'Poppins';
+    font-display: swap;
+}
+
 section{
     /* padding: 40px; */
     height: 100%;
@@ -56,6 +61,7 @@ h2, p{
     height: 100%;
 }
 li{
+    width: 370px;
     height: 230x;
     border: 2px solid #353535;
     border-radius: 5px;
