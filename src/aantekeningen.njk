@@ -13,7 +13,7 @@ css: /aantekeningen.css
     <li>
         {# kijk in de post van collection.post > vind de data > pak de title  #}
             <h2> {{ post.data.title }}</h2>
-            <p class="p-small">door {{ post.data.presentator }} op {{ post.data.date | postDate }}</p>
+            <p class="p-small"><em>door {{ post.data.presentator }} op {{ post.data.date | postDate }}</em></p>
             {# | postDate past de addFilter toe zodat alleen de datum word getoont #}
             <br>
             <p>{{ post.data.description }}</p>
