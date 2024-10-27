@@ -165,24 +165,7 @@ section, .nav-section{
     }
 }
 
-/* Styles voor div-1 */
-.div-1 {
-    background-color: #c3c3c3;
-    border-radius: 20px;
-    text-align: left;
-    padding: 10px;
-    background-image: repeating-linear-gradient(
-        white 0px calc(1lh - 1px),
-        rgb(214, 214, 214) calc(1lh - 1px) 1lh
-    );  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    height: 575px;
-    width: 80%;
-    margin: 20px auto;
-}
-.note-tekst{
-    width: 450px;
-}
+
 
 /* Responsive font size adjustments */
 @media only screen and (min-width: 600px) {

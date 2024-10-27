@@ -1,3 +1,11 @@
+---
+title: We Love Web - Vasilis
+presentator: Vasilis van Gemert
+date: 2024-09-13
+description: We Love Web sessie over toegankelijkheid, creativiteit en klokken
+tags: post
+---
+
 # We Love Web met Vasilis
 
 lovenonsense.com
