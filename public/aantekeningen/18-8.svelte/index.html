@@ -1,0 +1,46 @@
+<h1>Svelte opzetten</h1>
+<p>Stappen bij het opzetten van een nieuw svelte project.</p>
+<ol>
+<li>In de terminal:</li>
+</ol>
+<pre><code># create a new project in the current directory
+npm create svelte@latest
+
+# create a new project in my-app
+npm create svelte@latest my-app
+</code></pre>
+<ol start="2">
+<li>Stappen volgen in de terminal (skeleton project etc..)</li>
+<li>npm install</li>
+<li>nieuwe files toevoegen zodat svelte werkt (in de volgende stappen)</li>
+<li>in de lib (library) een <code>fetch-json.js</code> file toevoegen. met daarin</li>
+</ol>
+<pre><code>export default async function fetchJson(url, payload = {}) {
+  return await fetch(url, payload)
+    .then((response) =&gt; response.json())
+    .catch((error) =&gt; error)
+}
+</code></pre>
+<ol start="6">
+<li>in de routes een <code>+page.server.js</code> file toevoegen met daarin:</li>
+</ol>
+<pre><code>import fetchJson from &quot;$lib/fetch-json&quot;
+
+export async function load() {
+  const url = 'https://fdnd.directus.app/items/person/?filter={&quot;squad_id&quot;:3}'
+
+  const persons = await fetchJson(url)
+
+  return {
+    persons: persons.data
+  }
+}
+</code></pre>
+<ol start="7">
+<li>in de routes een <code>+page.js</code> file toevoegen met daarin:</li>
+</ol>
+<p><code>export let csr = false</code></p>
+<ol start="8">
+<li>Om de server te runnen:</li>
+</ol>
+<p><code>npm run dev</code></p>
