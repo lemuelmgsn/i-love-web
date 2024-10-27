@@ -6,6 +6,10 @@
     text-decoration: none;
     color: white;
 }
+@font-face {
+    font-family: 'Poppins';
+    font-display: swap;
+}
 section{
     padding: 40px;
     height: 100%;

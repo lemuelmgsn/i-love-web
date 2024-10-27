@@ -6,6 +6,10 @@
     scroll-behavior: smooth;
     color: white;
 }
+@font-face {
+    font-family: 'Poppins';
+    font-display: swap;
+}
 article{
     display: flex;
     flex-direction: column;
@@ -95,10 +99,11 @@ section, .nav-section{
     align-self: end;
     padding-bottom: 1em;
     animation: wiggleButton infinite 1.5s, popUp 1s;
-    animation-delay: 1s, 0s;
+    animation-delay: 3.5s, 2.5s;
     text-decoration: none;
     color: white;
     font-size: 16px;
+    transform: translateY(5em);
 }
 
 @keyframes wiggleButton {

@@ -26,7 +26,7 @@ module.exports = function(eleventyConfig) {
         dir: {
             // alle files waar je in werkt
             input: "src",
-            // alle files die uitkomen
+            // alle files die naar de client gaan
             output: "public",
         }
     };
