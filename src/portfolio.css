@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Flex', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+h1, h2{
+    font-size: 280px;
+    color: white;
+    
+}
+h1{
+    animation: name-right ease;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+}
+h2{
+    animation: name-left ease;
+    animation-duration: 3.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes name-right{
+    0%{
+        transform: translateX(-100vw);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes name-left{
+    0%{
+        transform: translateX(100vw);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100vw);
+    }
+}

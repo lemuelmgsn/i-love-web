@@ -5,6 +5,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/style.css");
     eleventyConfig.addPassthroughCopy("./src/aantekeningen.css");
     eleventyConfig.addPassthroughCopy("./src/detail.css");
+    eleventyConfig.addPassthroughCopy("./src/portfolio.css");
 
 
       
@@ -12,6 +13,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addWatchTarget("./src/style.css");
     eleventyConfig.addWatchTarget("./src/aantekeningen.css");
     eleventyConfig.addWatchTarget("./src/detail.css");
+    eleventyConfig.addWatchTarget("./src/portfolio.css");
 
     // 
     eleventyConfig.addFilter("postDate", (dateObj) => {

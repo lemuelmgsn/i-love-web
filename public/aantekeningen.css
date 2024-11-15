@@ -2,20 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins;
     text-decoration: none;
     list-style: none;
-}
-@font-face {
-    font-family: 'Poppins';
-    font-display: swap;
+    /* fonts */
+    font-family: 'Roboto Flex', sans-serif;
+    /* font-variation-settings: 
+    "opsz" 14,
+    "wght" 400,
+    "GRAD" 0,
+    "wdth" 100,
+    "slnt" 0,
+    "XOPQ" 96,
+    "YOPQ" 79,
+    "XTRA" 468,
+    "YTUC" 712,
+    "YTLC" 514,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738; */
+    font-variation-settings: 
+    "opsz" 21.11, "wght" 514.59, "GRAD" 150, "wdth" 100, "slnt" 0, "XOPQ" 97.75, "YOPQ" 85.76, "XTRA" 462.66, "YTUC" 712, "YTLC" 514, "YTAS" 854, "YTDE" -305, "YTFI" 676.48;
 }
 
+@font-face {
+    font-family: 'Roboto Flex';
+    font-display: swap;
+}
 section{
     /* padding: 40px; */
     height: 100%;
     width: 100%;
-    background-color: #111111;
+    /* background-color: #111111; */
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
