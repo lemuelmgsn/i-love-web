@@ -78,9 +78,9 @@ tags: post
 
   compositions: combinatie van containers en presentational components die specifieke pagina-secties vormen.
 
-## Dry - component trickery
+## Svelte 5
 
-## Component library
+
 
 
 
