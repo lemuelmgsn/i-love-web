@@ -17,41 +17,75 @@ section{
     overflow-x: hidden;
 }
 h1, h2{
-    font-size: 280px;
+    /* font-size: 280px; */
+    font-size: 17vw;
     color: white;
     
 }
 h1{
-    animation: name-right ease;
-    animation-duration: 3.5s;
+    animation: name-right ;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
+    transition-duration: 2s ;
 }
 h2{
-    animation: name-left ease;
-    animation-duration: 3.5s;
+    animation: name-left ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transition-duration: 2s ;
+}
+p{
+    animation: fade-in;
+    animation-duration: .6s;
+    animation-delay: 2s;
+    opacity: 0;
     animation-fill-mode: forwards;
 }
+/* keyframe animations */
 
+/* keyframes for "LEMUEL MAGSINO" */
 @keyframes name-right{
     0%{
+        opacity: 0;
         transform: translateX(-100vw);
+	    /* transform:rotateY('0deg'); */
     }
-    50%{
-        transform: translateX(0);
+    85%{
+        transform: translateX(5px);
     }
     100%{
-        transform: translateX(100vw);
+        opacity: 1;
+        transform: translateX(0);
+        /* transform:rotateY('360deg'); */
     }
 }
 
 @keyframes name-left{
     0%{
+        opacity: 0;
         transform: translateX(100vw);
     }
-    50%{
-        transform: translateX(0);
+    85%{
+        transform: translateX(-5px);
     }
     100%{
-        transform: translateX(-100vw);
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* keyframes for "frontend designer & developer" */
+@keyframes fade-in{
+    0%{
+        transform: translateY(15px);
+        opacity: 0;
+    }
+    80%{
+        opacity: .8;
+        transform: translateY(-3px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
     }
 }

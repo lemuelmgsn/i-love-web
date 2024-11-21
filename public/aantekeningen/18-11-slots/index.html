@@ -1,0 +1,54 @@
+<h1>Component concepten in Svelte.</h1>
+<h2>named slots, two way binding en stores</h2>
+<h2>structuur component library</h2>
+<h3>De chaos bedwingen door...</h3>
+<p>..afspraken (conventies) te maken over:</p>
+<ul>
+<li>
+<p>naamgeving componenten</p>
+</li>
+<li>
+<p>naamgeving van variaties van componenten</p>
+</li>
+<li>
+<p>naamgeving van properties binnen componenten</p>
+</li>
+<li>
+<p>metanaamgeving: componenten patronen, etc.</p>
+</li>
+<li>
+<p>indeling van de $lib folder</p>
+<h3>Metanaamgeving</h3>
+<p>een hierarchische benadering om het over bepaalde soorten componenten te hebben</p>
+<p>in principe is alles component maar hoe noemen we:</p>
+<ul>
+<li>geneste componenten</li>
+<li>variaties op componenten</li>
+<li>samengestelde componenten</li>
+</ul>
+<h3>Page-section-component</h3>
+<p>Pages: Volledige paginas of schermen met een specifieke context bestaat uit sections bijvoorbeeld de homepage</p>
+<p>Sectoins: secties van een pagina bestaand uit componenten bijvoorbeeld een hero banner een content sectie een footer</p>
+<p>Components: herbruiikbare componenten binnen de secries, buttons forms etc</p>
+<h3>Functions layering</h3>
+<p>InputsL componenten voor gebruiikersinvoor bijvoorbeeld knoppen of formulieren</p>
+<p>Display: componenten voor het weergeven van informatie, tabbellen en grafieken</p>
+<p>Navigation: componenten voor navigatie menus, breadcrumbs, skip to content</p>
+<p>Structural: layout elementen die structuur bieden, grids. containers</p>
+<h3>LEGO</h3>
+<p>Bricks: kleine niet herbruikbare stukjes, een icoon of tekstblok</p>
+<p>Blocks: herbruiikbare basis componeten, een knop of een afbeelding</p>
+<p>Assemblages:  gecombineerde componenten met een specifieke functie, formulier of een kaart</p>
+<p>Constructions: complexe pagina secties of templates, dashboard</p>
+<h3>Atomic design</h3>
+<p>Atoms: basis bouwblokken van je pagina, HTML elementen zoals een <label> <input></p>
+<p>Molecules: een groep atomen bij elkaar, een zoekformulier met een label input en button</p>
+<p>Organism: een groep moleculen die samen een sectie van je website vormen, een header met een zoekformulier</p>
+<p>Templates: een group organismen die samen een paginatype vormen, een overzichtspagina of detailspagina</p>
+<h3>Presenter-container</h3>
+<p>presentational components: ui-specifieke stateless componenten die bepalen hoe data getoond wordt (bijvoorbeeld een afbeelding)</p>
+<p>container component: componenten die de presentational components van data voorezien en hun gedrag bepalen</p>
+<p>compositions: combinatie van containers en presentational components die specifieke pagina-secties vormen.</p>
+</li>
+</ul>
+<h2>Svelte 5</h2>
