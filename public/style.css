@@ -192,3 +192,9 @@ section, .nav-section{
         font-size: 100px;
     }
 }
+.projects{
+    display: flex;
+}
+.projects > h3{
+    align-self: start ;
+}
