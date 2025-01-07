@@ -22,10 +22,32 @@ css: /style.css
         <a href="#weloveweb" class="skip">scroll</a>
     </section>
  
-    <section class="nav-section" id="weloveweb">
+    {# <section class="nav-section" id="weloveweb">
        <a href="/portfolio">portfolio</a>
        <a href="/aantekeningen">we love web</a>
-    </section>
+    </section> #}
+
+    <section>
+<h1 class="section-title"> Semester 3 </h1>
+
+<ul role="list" class="articles-list">
+{#  when u use your tags it will group it in a collection #}
+    {%- for  post in collections.post -%}
+    <li>
+        {# kijk in de post van collection.post > vind de data > pak de title  #}
+            <h2> {{ post.data.title }}</h2>
+            <p class="p-small"><em>door {{ post.data.presentator }} op {{ post.data.date | postDate }}</em></p>
+            {# | postDate past de addFilter toe zodat alleen de datum word getoont #}
+            <br>
+            <p>{{ post.data.description }}</p>
+            <a href="{{ post.url }}">Lees meer</a>
+
+    </li>
+    {%- endfor -%}
+
+</ul>
+
+</section>
 
     
 
