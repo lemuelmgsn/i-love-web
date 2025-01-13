@@ -53,3 +53,30 @@ het doel is gerelateerde statements dichtes bij elkaar te plaatsen en irrelevean
 
 door statements op een logischere manier te ordenene, wordt de structuur van de methode duidelijker, wat leidt tot betere begrip en eenvoudiger onderhoud.
 
+
+# Svelte kit best practices
+
+performance:
+
+code-splitting, alleen de code die nodig is voor de actieve pagina wordt ingeladen
+asset preloading, de juiste assets op het juiste moment ipv. een waterval van bestanden die  bestanden inladen
+file hasing, unieke bestandsnaam voor assets zodat caching werkt voor gebruikers.
+pre-rendering, paginas zonder dynamische data worden instant verstuurd (per route)
+
+## Performance testen
+
+```
+npm run dev - x 
+npm run build - ja
+npm run preview - ja
+```
+
+### Afbeeldingen
+
+@sveltejs/enhanced-img - voor het optimaliseren van afbeeldingen.
+
+```
+npm install @sveltejs/enhanced-img
+```
+
+werkt alleen op imagis in lokale omgeving niet via data base.
