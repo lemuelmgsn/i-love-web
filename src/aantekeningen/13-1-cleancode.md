@@ -33,3 +33,23 @@ uitgecommentaarde stukken code horen niet in de productiecode; haal ze weg!
 
 code wordt vaker gelezen dan geschreven. maak daarom het intuitief om je code leesbaar te maken, let op ruimte.
 
+## refactoring
+
+refactoren is een proces van het verbeteren van de structuur van de code zonder het gedrag te veranderen.
+
+het doel is om code leesbaarder, eenvoudiger te begrijpen, makkelijker onderhoudbaar en makkelijker uitbreidbaar maken.
+
+het bestaat uit kleine veranderingen, zoals hernoemen van variabelen, opsplitsen van lange functies of verwijderen van dubbeling.
+
+### patroon: splits conditionals op
+
+### Patroon: varvang loops door pipelines
+
+### Patroon: verschuif statements
+
+herpositioneren van code binnenn een mehode om de leesbaarheid en logische volgorde te verbeteren.
+
+het doel is gerelateerde statements dichtes bij elkaar te plaatsen en irreleveante of afleidende stukken code te verplaatsen naar een meer geschikte locatie.
+
+door statements op een logischere manier te ordenene, wordt de structuur van de methode duidelijker, wat leidt tot betere begrip en eenvoudiger onderhoud.
+
