@@ -6,10 +6,6 @@
     text-decoration: none;
     color: white;
 }
-@font-face {
-    font-family: 'Poppins';
-    font-display: swap;
-}
 section{
     padding: 40px;
     height: 100%;
@@ -20,10 +16,12 @@ section{
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
+    /* text-align: left; */
 }
 h1, h2, h3{
     margin-bottom: 16px;
     margin-top: 16px;
+    width: 100%;
 }
 h1{
     font-size: 2rem;
@@ -50,5 +48,8 @@ a:hover{
     color: #111111;
     background-color: grey;
     transition: .5s;
+}
+p{
+    width: 30rem;
 }
 

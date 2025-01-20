@@ -3,6 +3,7 @@ titel: sprintplanning laatste sprint
 
 ---
 
+
 Software release life cycle.,
 
 pre-alpha

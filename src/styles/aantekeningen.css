@@ -78,7 +78,7 @@ h2, p{
 .articles-list{
     height: 100%;
 }
-li{
+.posts{
     width: 370px;
     height: 230x;
     border: 2px solid #353535;

@@ -1,7 +1,7 @@
 ---
 title: Workshop scroll driven animation
 presentator: Justus Sturkeboom
-date: 2024-21-2
+date: 2024-21-02
 description: Workshop over scroll-driven animations en het vastleggen van jouw eerste Creative Coding Spike
 tags: post
 ---
