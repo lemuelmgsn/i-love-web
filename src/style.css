@@ -6,15 +6,27 @@
     scroll-behavior: smooth;
     color: white;
 }
-@font-face {
+/* @font-face {
     src: url(https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400&display=swap);
     font-family: 'Roboto Flexx';
     font-display: swap;
 }
 body {
     font-family: 'Roboto Flex', sans-serif;
-  }
+  } */
   
+  @font-face {
+    font-family: 'Inter Tight';
+    src: url('../fonts/Inter_Tight-Regular.woff2') format('woff2'),
+         url('../fonts/Inter_Tight-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Inter Tight', sans-serif;
+}
+
 article{
     display: flex;
     flex-direction: column;
