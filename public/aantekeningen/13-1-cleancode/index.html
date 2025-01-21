@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400&display=swap" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="/detail.css"/>
+    
+    
+
+
+    <title>clean code</title>
+</head>
+
+
+<body>
+    <main>
+    
+    
+
+    
+<section>
+
+<h1> clean code</h1>
+
+<h1>Clean code</h1>
+<p>als we allemaal onze code net iets schoner inchecken toen we die uitcheckten zou de code simpelweg niet kunnen verouderen</p>
+<p>oporuimen hoeft niets groots te zijn. verander één variabelenaam in iets beters,</p>
+<h3>gebruik betekenisvolle namen</h3>
+<p>gebruik duidelijke en beschrijvende namen voor variabelen, functies en bestanden</p>
+<p>vermijd cryptische afkortingen og generieke termen zoals a,x, data of temp</p>
+<h3>Schrijf kleine functies</h3>
+<p>functies moeten klein zijn en slechts een verantwoordelijkheid hebben. lange functies zijn moeilijk te begrijpen en onderhouden</p>
+<p>stel je functie op met zo min mogelijk parameters. het liefst monadisch(1 parameter) maar als nodig is diadisch (2 parameters), vermeid triadisch(3 parameters)</p>
+<p>voorkom side-effects, dingen die buiten de scope van de functie vallen. een functie heeft één ingang - parameters - en één uitgang - return.</p>
+<h3>gebruik goed commentaar</h3>
+<p>less is more. goede code heeft weinig comments nodig omdat het zichzelf uitlegt.</p>
+<p>uitgecommentaarde stukken code horen niet in de productiecode; haal ze weg!</p>
+<h3>Maak code leesbaar</h3>
+<p>code wordt vaker gelezen dan geschreven. maak daarom het intuitief om je code leesbaar te maken, let op ruimte.</p>
+<h2>refactoring</h2>
+<p>refactoren is een proces van het verbeteren van de structuur van de code zonder het gedrag te veranderen.</p>
+<p>het doel is om code leesbaarder, eenvoudiger te begrijpen, makkelijker onderhoudbaar en makkelijker uitbreidbaar maken.</p>
+<p>het bestaat uit kleine veranderingen, zoals hernoemen van variabelen, opsplitsen van lange functies of verwijderen van dubbeling.</p>
+<h3>patroon: splits conditionals op</h3>
+<h3>Patroon: varvang loops door pipelines</h3>
+<h3>Patroon: verschuif statements</h3>
+<p>herpositioneren van code binnenn een mehode om de leesbaarheid en logische volgorde te verbeteren.</p>
+<p>het doel is gerelateerde statements dichtes bij elkaar te plaatsen en irreleveante of afleidende stukken code te verplaatsen naar een meer geschikte locatie.</p>
+<p>door statements op een logischere manier te ordenene, wordt de structuur van de methode duidelijker, wat leidt tot betere begrip en eenvoudiger onderhoud.</p>
+<h1>Svelte kit best practices</h1>
+<p>performance:</p>
+<p>code-splitting, alleen de code die nodig is voor de actieve pagina wordt ingeladen
+asset preloading, de juiste assets op het juiste moment ipv. een waterval van bestanden die  bestanden inladen
+file hasing, unieke bestandsnaam voor assets zodat caching werkt voor gebruikers.
+pre-rendering, paginas zonder dynamische data worden instant verstuurd (per route)</p>
+<h2>Performance testen</h2>
+<pre><code>npm run dev - x 
+npm run build - ja
+npm run preview - ja
+</code></pre>
+<h3>Afbeeldingen</h3>
+<p>@sveltejs/enhanced-img - voor het optimaliseren van afbeeldingen.</p>
+<pre><code>npm install @sveltejs/enhanced-img
+</code></pre>
+<p>werkt alleen op imagis in lokale omgeving niet via data base.</p>
+
+
+</section>
+
+    
+    
+    </main>
+</body>
+
+
+</html>
+
