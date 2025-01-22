@@ -1,4 +1,4 @@
-# OFferte opleveren
+# Offerte opleveren
 
 ## Hoe kom je aan projecten?
 - Netwerk
@@ -37,3 +37,4 @@ The GOODList - Freelance uurloon
 ## Service level agreement
 maak afspraken voor na de oplevering:
 Hostingkosten? Updates? Maandelijkse vaste uren? Nacalculatie?
+
