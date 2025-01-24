@@ -30,3 +30,5 @@ Three.js
 threejs.journey.com
 
 google extensions: Spector.js - webGL inspecteren
+
+Repo om op te oefenen: https://github.com/lemuelmgsn/hva
