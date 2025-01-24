@@ -1,3 +1,11 @@
+---
+title: Stage tips
+presentator: Dorien Drees
+date: 
+description: College over hoe je jezelf kan voorbereiden op een stage
+tags: post
+---
+
 Waar kijken bedrijven naar als je gaat soliciteren:
 
 - repo zien - belangrijskte repo bovenaan zetten/pinnen
