@@ -1,6 +1,9 @@
 ---
-title: clean code
-
+title: Clean code
+presentator: Justus Sturkenboom
+date: 2024-01-13
+description: College over clean code
+tags: post
 ---
 
 # Clean code
