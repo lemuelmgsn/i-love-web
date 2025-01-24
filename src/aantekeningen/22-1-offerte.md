@@ -1,3 +1,11 @@
+---
+title: Offerte opleveren
+presentator: Dorien Drees
+date: 2024-01-22
+description: College over de hoe je een offerte kan opleveren
+tags: post
+---
+
 # Offerte opleveren
 
 ## Hoe kom je aan projecten?
