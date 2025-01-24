@@ -1,3 +1,11 @@
+---
+title: WebGL & Vrije ruimte
+presentator: Dion Pieters & Joost Faber
+date: 2024-01-20
+description: College over WebGL en de vrije ruimte
+tags: post
+---
+
 # Portflow:
 
 nodig bedrijfsbegeleider uit voor feedback op relevante bewijslast.
