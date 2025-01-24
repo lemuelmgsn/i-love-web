@@ -1,5 +1,9 @@
 ---
-title: Sprintreview
+title: Sprintreview voorbereiding
+presentator: Dorien Drees
+date: 
+description: College over een sprintplanning voorbereiden
+tags: post
 ---
 
 # Sprintreview
